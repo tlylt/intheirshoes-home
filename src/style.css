@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
-
 #brand {
     font-family: "Fredoka One", cursive;
+}
+#topSection {
+    background-image: url("../assets/topbg.png");
 }
 #brand-middle {
     color: #f64721;
