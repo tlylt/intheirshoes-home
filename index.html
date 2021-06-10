@@ -2,12 +2,32 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>In Their Shoes</title>
   </head>
   <body>
     <div id="app"></div>
+    <section id="topSection" class="body-font bg-r-bg">
+      <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+        <div class="sm:w-1/2 lg:w-1/3 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center font-bold">
+          <h1 id="brand" class="title-font sm:text-4xl text-3xl mb-4 font-medium">in <span id="brand-middle">their</span> shoes</h1>
+          <p class="mb-8 leading-relaxed">Live through the daily lives of the characters and understand the challenges they face by placing yourself in their shoes.</p>
+          <div class="flex lg:flex-row md:flex-col ">
+            <button onclick="window.open('https://soristic.asia/intheirshoes_seniors/');" class="bg-r-button inline-flex py-3 px-5 rounded-full  items-center hover:bg-purple-400  focus:outline-none shadow-button">
+              <span class="flex items-start flex-col leading-none text-white ">
+                <span class="title-font font-medium ">Seniors Game</span>
+              </span>
+            </button>
+            <button onclick="window.open('https://soristic.asia/intheirshoes_youth/');" class="bg-r-button inline-flex py-3 px-5 items-center lg:ml-4 md:ml-0 ml-4 md:mt-4 mt-0 lg:mt-0 hover:bg-purple-400 focus:outline-none shadow-button rounded-full">
+              <span class="flex items-start flex-col leading-none text-white ">
+                <span class="title-font font-medium">Youth Game</span>
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="text-gray-600 bg-HTP-bg body-font">
       <div class="container px-5 py-24 mx-auto">
         <div class="text-center mb-20">
@@ -110,15 +130,14 @@
               <h2 class="title-font text-2xl font-bold text-yellow-600 mt-6 mb-3">How to Play Guide</h2>
               <img id="r-play" alt="guide" class="object-cover object-center h-full w-full p-8">
             </div>
-            <button class="flex mx-auto mt-6 text-white font-bold bg-r-button border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded-full shadow-button">Download</button>
+            <button onclick="window.open('https://soristic.asia/publication/in-their-shoes-how-to-play/');" class="flex mx-auto mt-6 text-white font-bold bg-r-button border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded-full shadow-button">Download</button>
           </div>
           <div class="md:w-1/2 lg:w-1/4 mb-10 px-4">
-            <div class="rounded-xl border-10 border-r-play-border bg-r-edu-inner-bg h-auto">
-              <h2 class="title-font text-2xl font-bold text-blue-800 mt-6 mb-3">Educators Guide</h2>
+            <div class="rounded-xl border-10 border-gray-300 bg-r-edu-inner-bg h-auto">
+              <h2 class="title-font text-2xl font-bold text-blue-900 mt-6 mb-3">Educators Guide</h2>
               <img id="r-edu" alt="guide" class="object-cover object-center h-full w-full p-8">
             </div>
-
-            <button class="flex mx-auto mt-6 text-white font-bold bg-r-button border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded-full shadow-button">Download</button>
+            <button onclick="window.open('https://soristic.asia/publication/in-their-shoes-educators-guide/');" class="flex mx-auto mt-6 text-white font-bold bg-r-button border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded-full shadow-button">Download</button>
           </div>
         </div>
       </div>
