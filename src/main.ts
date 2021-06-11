@@ -6,6 +6,9 @@ import htpArrow from "../assets/arrow.svg"
 import rEdu from "../assets/Educators_Guide.png"
 import rPlay from "../assets/How-To-Play Guide.png"
 import topChar from "../assets/full_body.png"
+import stat1 from "../assets/stats 1.png"
+import stat2 from "../assets/stats 2.png"
+import stat3 from "../assets/stats 3.png"
 
 document.getElementById('htp-1')?.setAttribute('src', htpImgUrl1)
 document.getElementById('htp-2')?.setAttribute('src', htpImgUrl2)
@@ -17,4 +20,10 @@ document.getElementById('r-play')?.setAttribute('src', rPlay)
 document.getElementById('r-edu')?.setAttribute('src', rEdu)
 
 document.getElementById('topChar')?.setAttribute('src', topChar)
+
+document.getElementById('stat1')?.setAttribute('src', stat1)
+document.getElementById('stat2')?.setAttribute('src', stat2)
+document.getElementById('stat3')?.setAttribute('src', stat3)
+
+
 
