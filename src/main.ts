@@ -5,7 +5,7 @@ import htpImgUrl3 from '../assets/6.png'
 import htpArrow from "../assets/arrow.svg"
 import rEdu from "../assets/Educators_Guide.png"
 import rPlay from "../assets/How-To-Play Guide.png"
-import topChar from "../assets/2.png"
+import topChar from "../assets/full_body.png"
 
 document.getElementById('htp-1')?.setAttribute('src', htpImgUrl1)
 document.getElementById('htp-2')?.setAttribute('src', htpImgUrl2)
