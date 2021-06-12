@@ -17,9 +17,10 @@ import orange from "../assets/E_SDG goals_icons-individual-rgb-11.png"
 import blue from "../assets/E_SDG goals_icons-individual-rgb-16.png"
 import soristic from "../assets/Soristic Logo_Blue.png"
 import spinnerCenter from "../assets/benefits of inclusive mindset.png"
+import soristic2 from "../assets/Soristic Logo_White.png"
 
 document.getElementById('logo1')?.setAttribute('src', soristic)
-document.getElementById('logo2')?.setAttribute('src', soristic)
+document.getElementById('logo2')?.setAttribute('src', soristic2)
 document.getElementById('spinner-center')?.setAttribute('src', spinnerCenter)
 
 document.getElementById('htp-1')?.setAttribute('src', htpImgUrl1)

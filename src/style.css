@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Nunito+Sans&family=Open+Sans&family=Staatliches&display=swap');
 #brand {
     font-family: "Fredoka One", cursive;
 }
@@ -181,3 +182,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .body-font {
+    @apply font-nun
+  }
+  
+}

@@ -21,6 +21,12 @@ module.exports = {
       },
       borderRadius: {
         'xl': '2rem'
+      },
+      fontFamily: {
+        'joe': ['Josefin Sans', 'sans-serif'],
+        'nun': ['Nunito Sans', 'sans-serif'],
+        'openSans': ['Open Sans', 'sans-serif'],
+        'staat': ['Staatliches', 'cursive'],
       }
     },
   },
