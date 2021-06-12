@@ -5,10 +5,16 @@ import htpImgUrl3 from '../assets/6.png'
 import htpArrow from "../assets/arrow.svg"
 import rEdu from "../assets/Educators_Guide.png"
 import rPlay from "../assets/How-To-Play Guide.png"
-import topChar from "../assets/full_body.png"
+import topChar from "../assets/half body.png"
 import stat1 from "../assets/stats 1.png"
 import stat2 from "../assets/stats 2.png"
 import stat3 from "../assets/stats 3.png"
+import goals from "../assets/goals.png"
+import sustainable from "../assets/sustainable.png"
+
+import purple from "../assets/E_SDG-goals_icons-individual-rgb-10.png"
+import orange from "../assets/E_SDG goals_icons-individual-rgb-11.png"
+import blue from "../assets/E_SDG goals_icons-individual-rgb-16.png"
 
 document.getElementById('htp-1')?.setAttribute('src', htpImgUrl1)
 document.getElementById('htp-2')?.setAttribute('src', htpImgUrl2)
@@ -25,5 +31,11 @@ document.getElementById('stat1')?.setAttribute('src', stat1)
 document.getElementById('stat2')?.setAttribute('src', stat2)
 document.getElementById('stat3')?.setAttribute('src', stat3)
 
+document.getElementById('goals')?.setAttribute('src', goals)
+document.getElementById('sustainable')?.setAttribute('src', sustainable)
+
+document.getElementById('E_SDG-goals_icons-individual-rgb-10')?.setAttribute('src', purple)
+document.getElementById('E_SDG-goals_icons-individual-rgb-11')?.setAttribute('src', orange)
+document.getElementById('E_SDG-goals_icons-individual-rgb-16')?.setAttribute('src', blue)
 
 

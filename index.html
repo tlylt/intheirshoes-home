@@ -8,8 +8,21 @@
   </head>
   <body>
     <div id="app"></div>
-    <section id="topSection" class="bg-auto body-font bg-r-bg">
-      <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+    <header class="bg-gray-50 body-font">
+      <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+        <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+          <span class="ml-3 text-xl">Soristic</span>
+        </a>
+        <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+          <a class="mr-5 hover:text-gray-900">Home</a>
+          <a class="mr-5 hover:text-gray-900">Simulation</a>
+          <a class="mr-5 hover:text-gray-900">Workshops</a>
+          <a class="mr-5 hover:text-gray-900">FAQ</a>
+        </nav>
+      </div>
+    </header>
+    <section id="topSection" class="bg-auto body-font">
+      <div class="container mx-auto flex px-5 pt-16 md:flex-row flex-col items-center">
         <div class="sm:w-1/2 lg:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center font-bold">
           <h1 id="brand" class="title-font sm:text-4xl text-3xl mb-4 font-medium">in <span id="brand-middle">their</span> shoes</h1>
           <p class="mb-8 leading-relaxed">Live through the daily lives of the characters and understand the challenges they face by placing yourself in their shoes.</p>
@@ -28,6 +41,23 @@
         </div>
         <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 ml-auto">
           <img id="topChar" class="object-cover object-bottom" alt="hero">
+        </div>
+      </div>
+    </section>
+    <section class="bg-purple-100 body-font overflow-hidden">
+      <div class="container px-5 py-24 mx-auto">
+        <div class="lg:w-4/5 mx-auto flex flex-wrap">
+          <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0">
+            <img class="-ml-12" id="sustainable"/>
+            <div class="flex mb-4">
+              <img id="E_SDG-goals_icons-individual-rgb-10" class="w-40 h-50 flex-grow  py-2 px-1" />
+              <img id="E_SDG-goals_icons-individual-rgb-11" class="w-40 h-50 flex-grow  py-2 px-1"/>
+              <img id="E_SDG-goals_icons-individual-rgb-16" class="w-40 h-50 flex-grow  py-2 px-1"/>
+            </div>
+            <h1 class="text-gray-900 text-xl title-font font-medium mb-4">Supporting United Nation Sustainable Development Goals 10, 11 & 16</h1>
+            <p class="leading-relaxed mb-4">This character simulation enables participants to empathise with others' life experiences and develop an inclusive mindset.</p>
+          </div>
+          <img alt="goals" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center" id="goals">
         </div>
       </div>
     </section>
