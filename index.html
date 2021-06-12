@@ -8,16 +8,16 @@
   </head>
   <body>
     <div id="app"></div>
-    <header class="bg-gray-50 body-font">
+    <header class="bg-r-bg body-font">
       <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-          <span class="ml-3 text-xl">Soristic</span>
+          <img class="w-60 h-auto" id="logo1"/>
         </a>
         <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
-          <a class="mr-5 hover:text-gray-900">Home</a>
-          <a class="mr-5 hover:text-gray-900">Simulation</a>
-          <a class="mr-5 hover:text-gray-900">Workshops</a>
-          <a class="mr-5 hover:text-gray-900">FAQ</a>
+          <a class="mr-5 hover:bg-blue-900 rounded-full px-4 py-2 hover:text-white cursor-pointer">Home</a>
+          <a class="mr-5 hover:bg-blue-900 rounded-full px-4 py-2 hover:text-white cursor-pointer">Simulation</a>
+          <a class="mr-5 hover:bg-blue-900 rounded-full px-4 py-2 hover:text-white cursor-pointer">Workshops</a>
+          <a class="mr-5 hover:bg-blue-900 rounded-full px-4 py-2 hover:text-white cursor-pointer">FAQ</a>
         </nav>
       </div>
     </header>
@@ -46,18 +46,35 @@
     </section>
     <section class="bg-purple-100 body-font overflow-hidden">
       <div class="container px-5 py-24 mx-auto">
-        <div class="lg:w-4/5 mx-auto flex flex-wrap">
+        <div class=" mx-auto flex flex-wrap">
           <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0">
             <img class="-ml-12" id="sustainable"/>
             <div class="flex mb-4">
-              <img id="E_SDG-goals_icons-individual-rgb-10" class="w-24 h-32 md:w-40 md:h-52 py-2 px-1" />
-              <img id="E_SDG-goals_icons-individual-rgb-11" class="w-24 h-32 md:w-40 md:h-52 py-2 px-1"/>
-              <img id="E_SDG-goals_icons-individual-rgb-16" class="w-24 h-32 md:w-40 md:h-52 py-2 px-1"/>
+              <img id="E_SDG-goals_icons-individual-rgb-10" class="w-24 h-28 md:w-40 md:h-48 py-2 px-1" />
+              <img id="E_SDG-goals_icons-individual-rgb-11" class="w-24 h-28 md:w-40 md:h-48 py-2 px-1"/>
+              <img id="E_SDG-goals_icons-individual-rgb-16" class="w-24 h-28 md:w-40 md:h-48 py-2 px-1"/>
             </div>
             <h1 class="text-gray-900 text-xl title-font font-medium mb-4">Supporting United Nation Sustainable Development Goals 10, 11 & 16</h1>
             <p class="leading-relaxed mb-4">This character simulation enables participants to empathise with others' life experiences and develop an inclusive mindset.</p>
           </div>
-          <img alt="goals" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center" id="goals">
+          <img alt="goals" class="w-full md:w-1/2 object-cover object-center" id="goals">
+        </div>
+      </div>
+    </section>
+    <section class="bg-purple-100 body-font overflow-hidden">
+      <div class="ferris-wrapper">
+        <span class="hub-back"></span>
+        <img class="w-72 h-72 absolute mt-28 top-96 left-80 " src="../assets/benefits of inclusive mindset.png">
+        <span class="hub-front"></span>
+        <div class="wheel-wrapper ">
+          <div class="wheel">     
+            <div class="cabin rounded-full bg-purple-900 text-white w-40 h-40 flex items-center justify-center text-lg ">Higher <br/> Emotional <br/> Quotient</div>
+            <div class="cabin rounded-full bg-purple-900 text-white w-40 h-40 flex items-center justify-center text-lg">Increase <br/> Resilience</div>
+            <div class="cabin rounded-full bg-purple-900 text-white w-40 h-40 flex items-center justify-center text-lg">Effective <br/> Leadership</div>
+            <div class="cabin rounded-full bg-purple-900 text-white w-40 h-40 flex items-center justify-center text-lg">Wellbeing</div>
+            <div class="cabin rounded-full bg-purple-900 text-white w-40 h-40 flex items-center justify-center text-lg">Broaden Perspective</div>
+            <div class="cabin rounded-full bg-purple-900 text-white w-40 h-40 flex items-center justify-center text-lg">Creativity and innovation</div>
+          </div>
         </div>
       </div>
     </section>
@@ -215,15 +232,85 @@
     <section class="text-gray-600 body-font bg-gray-200">
       <div class="container px-5 py-4 mx-auto">
         <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="inline-block w-8 h-8 text-gray-400 mb-8" viewBox="0 0 975.036 975.036">
-            <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
-          </svg>
-          <p class="leading-relaxed text-lg max-w-64 mx-auto">“Having greater awareness of the special circumstances these individuals may live in provides better understanding on why we should be unassuming of the difficulties others may experience, and to be more empathetic and kind even to others."
+          <svg xmlns="http://www.w3.org/2000/svg" class="inline-block w-16 h-16 text-gray-400 mb-8" width="24" height="24" viewBox="0 0 24 24"><path d="M13 14.725c0-5.141 3.892-10.519 10-11.725l.984 2.126c-2.215.835-4.163 3.742-4.38 5.746 2.491.392 4.396 2.547 4.396 5.149 0 3.182-2.584 4.979-5.199 4.979-3.015 0-5.801-2.305-5.801-6.275zm-13 0c0-5.141 3.892-10.519 10-11.725l.984 2.126c-2.215.835-4.163 3.742-4.38 5.746 2.491.392 4.396 2.547 4.396 5.149 0 3.182-2.584 4.979-5.199 4.979-3.015 0-5.801-2.305-5.801-6.275z"/></svg>
+          <p class="leading-relaxed text-lg max-w-64 mx-auto">Having greater awareness of the special circumstances these individuals may live in provides better understanding on why we should be unassuming of the difficulties others may experience, and to be more empathetic and kind even to others.
           </p>
           <h1 class="text-gray-900 mt-8 font-medium title-font tracking-wider text-sm">- Participant from Empathy Workshop</h1>
         </div>
       </div>
     </section>
+    <footer class="bg-footer-blue text-white body-font">
+      <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+        <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+          <a class="flex title-font font-medium items-center md:justify-start justify-center text-white">
+            <img id="logo2" />
+          </a>
+        </div>
+        <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+          <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+            <h2 class="title-font font-medium  tracking-widest text-sm mb-3">Simulation Development</h2>
+            <nav class="list-none mb-10">
+              <li>
+                <a class="">Soristic Impact Collective</a>
+              </li>
+            </nav>
+          </div>
+          <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+            <h2 class="title-font font-medium  tracking-widest text-sm mb-3">Design and Illustration</h2>
+            <nav class="list-none mb-10">
+              <li>
+                <a class="">Storyset and Canva</a>
+              </li>
+            </nav>
+          </div>
+          <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+            <h2 class="title-font font-medium tracking-widest text-sm mb-3">Disclaimer:</h2>
+          </div>
+          <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+            <h2 class="title-font font-medium  tracking-widest text-sm mb-3">Contact Us</h2>
+            <nav class="list-none mb-10">
+              <li>
+                <a class="">connect@soristic.asia</a>
+              </li>
+            </nav>
+            <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
+              <a class="">
+                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                </svg>
+              </a>
+              <a class="ml-3 ">
+                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                </svg>
+              </a>
+              <a class="ml-3 ">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                </svg>
+              </a>
+              <a class="ml-3 ">
+                <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                  <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                </svg>
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="bg-gray-100">
+        <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+          <p class="text-gray-500 text-sm text-center sm:text-left">© <script type="text/javascript">
+            document.write(new Date().getFullYear());
+          </script> Soristic —
+            <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" class="text-gray-600 ml-1" target="_blank">All rights reserved</a>
+          </p>
+          
+        </div>
+      </div>
+    </footer>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
